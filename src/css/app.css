@@ -125,6 +125,11 @@ section > h2{
 	color: #ccc;
 }
 
+.carousel-control{
+	visibility: hidden;
+	background: none;
+}
+
 .form-control, .input-group-lg>.form-control, .input-group-lg>.input-group-btn>.btn{
 	border-radius: 0;
 	box-shadow: none;
@@ -146,90 +151,9 @@ footer p{
 	color: #ccc;
 }
 
-footer p a{
+footer a{
 	color: #444;
 }
-
-
-
-
-/* Noooooooooooooooooooooooooooooooooooooooooooooooo */
-
-
-
-
-/*====================================================*/
-
-
-hr.short-line{
-	margin: 15px auto;
-	padding: 0;
-	max-width: 250px;
-	border: 0;
-	border-top: solid 2px rgba(136, 136, 136, 0.3);
-	text-align: center;
-}
-
-
-
-#footer{
-	text-align: center;
-	background-image: url(../images/zwartevilt.png);
-	#background-color: #080808;
-	#height: 150px;
-	padding-top: 50px;
-	color: #212121;
-	font-size: 1.5em;
-	font-weight: 500;
-}
-
-footer .logo{
-	height: 80px;
-	margin-bottom: 1.2em;
-}
-
-footer ul.contact{
-	padding: 0;
-}
-footer ul.contact li{
-	
-	display: inline;
-	#font-size: 1.5em;
-	margin: 0 10px 0;
-	#padding:0;
-	
-}
-
-footer ul li .fa{
-	#width: 1.5em;
-	#height: 1.5em;
-	line-height: 1.5em;
-	#border: 1px solid #999;
-	#border-radius: 100%;
-	color: #444;
-}
-
-footer ul.contact-details li{
-	list-style-type: none;
-	margin: 10px auto;
-	font-weight: 900;
-}
-
-footer ul.contact-details a{
-	color: inherit;
-	#text-decoration: none;
-}
-
-footer ul.contact-details li .fa{
-	#font-size: 1.8em;
-	list-style-type: none;
-	line-height: 1.5em;
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	border: 1px solid #444;
-	margin-right: 10px;
-} 
 
 footer ul li .fa.fa-twitter:hover{
 	
@@ -262,141 +186,3 @@ footer ul li .fa.fa-youtube:hover{
 	color: red;
 }
 
-.blue{
-	color: #3c74a9;
-}
-
-.green{
-	color: #49a69e;
-}
-
-.orange{
-	color: #f3ad29;
-}
-
-.red{
-	color: #dc5130;
-}
-
-.modal-header {
-	text-align: center;
-	border-bottom: 0;
-	color: #555;
-}
-
-.modal-footer {
-	border-top: 0;
-}
-
-.modal-dialog hr{
-	#margin: 0;
-}
-
-.tab-pane{
-	padding: 20px 0;
-	text-align: justify;
-}
-
-.nav-tabs{
-	#font-weight: bold;
-}
-
-.cta{
-	font-size: 1.4em;
-
-}
-
-img.full-image{
-	height:100%;
-	width:100%;
-	padding: 10px;
-	border-right: 1px solid #ddd;
-}
-
-.course-slide{
-	padding: 20px;
-}
-
-.section-course-slides{
-	#background-color: #eee;
-	#padding-bottom: 50px;
-	#padding: 15px;
-	#border-bottom: 3px dashed green;
-}
-
-.course-objectives-spacing{
-	border-right: 1px solid black;
-}
-
-.carousel-inner>.active{
-	padding-bottom: 50px
-}
-
-.carousel-control{
-	visibility: hidden;
-	background: none;
-}
-
-.center-element{
-	margin-right: auto;
-	margin-left: auto;
-}
-
-.clearfloat{
-	float: none;
-}
-
-.margin-top-5-bottom-10{
-	margin-top: 5%;
-	margin-bottom: 10%;
-}
-
-.course-nav{
-	list-style: none;
-}
-
-.course-nav li{
-	display: inline-block;
-	margin: 0 10px 10px;
-}
-
-#all-courses-button{
-	position: fixed;
-	bottom: 40px;
-	right: 20px;
-	text-transform: uppercase;
-	font-weight: bolder;
-	float: right;
-}
-
-section{
-	font-size: 1.2em;
-	#padding-bottom: 30px;
-}
-
-.modal-content{
-	font-size: 1.1em;
-	border-radius: 0;
-	background: #fafafa;
-}
-
-.bg-blue{
-	background-color: #f1f6fb;
-}
-
-.bg-plain{
-	background-color: #fafcf6;
-}
-
-.bg-skyblue{
-	background-color: #ECF7F7;
-}
-
-.bg-purple{
-	background-color: #f8f4fc;
-}
-
-.font-white{
-	color: #fff;
-}
-/********* Responsive utilities ****************/
