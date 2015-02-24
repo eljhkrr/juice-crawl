@@ -85,12 +85,21 @@ body{
 	font-weight: bold;
 }
 
-.landing-section{
+section > h2{
+	text-transform: uppercase;
+	margin: 50px 0 40px;
+}
+
+.about-juicecrawl{
 	#height: 400px;
 	#background-color: #1a244c;
 	background-image: url(../images/restaurant_icons.png);
 }
 
+.about-juicecrawl p{
+	width: 50%;
+
+}
 .linear li{
 	display: inline;
 	margin: 0 0.6em;
@@ -116,32 +125,36 @@ body{
 	color: #ccc;
 }
 
+.form-control, .input-group-lg>.form-control, .input-group-lg>.input-group-btn>.btn{
+	border-radius: 0;
+	box-shadow: none;
+}
+
+footer{
+	background-image: url(../images/zwartevilt.png);
+	padding: 20px 0;
+}
+
+footer ul{
+	padding-left: 20%;
+	font-size: 2em;
+}
+
+footer p{
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #ccc;
+}
+
+footer p a{
+	color: #444;
+}
+
+
 
 
 /* Noooooooooooooooooooooooooooooooooooooooooooooooo */
-.grand-introduction img{
-	display: block;
-	margin: 100px auto 50px;
-}
 
-.introduction-to-adca{
-	background-image: url(../images/subtle_dots.png);
-}
-
-.about-adca{
-	background-image: url(../images/grey.png);
-}
-
-section{
-	#border-bottom: 3px dashed purple;
-	#padding: 30px 0;
-	#padding-bottom: 30px;
-}
-
-section > h2{
-	text-transform: uppercase;
-	margin: 50px 0 40px;
-}
 
 section > h3{
 	margin: 20px 0; 
@@ -248,10 +261,7 @@ p.shorten{
 	height: 300px;
 }
 
-.form-control, .input-group-lg>.form-control, .input-group-lg>.input-group-btn>.btn{
-	border-radius: 0;
-	box-shadow: none;
-}
+
 
 .underline{
 	text-decoration: underline;
@@ -271,9 +281,9 @@ hr.short-line{
 
 
 
-footer{
+#footer{
 	text-align: center;
-	background-image: url(../images/halftone.png);
+	background-image: url(../images/zwartevilt.png);
 	#background-color: #080808;
 	#height: 150px;
 	padding-top: 50px;
