@@ -136,7 +136,7 @@ footer{
 }
 
 footer ul{
-	padding-left: 20%;
+	padding-left: 15%;
 	font-size: 2em;
 }
 
@@ -156,116 +156,7 @@ footer p a{
 /* Noooooooooooooooooooooooooooooooooooooooooooooooo */
 
 
-section > h3{
-	margin: 20px 0; 
-}
 
-p.shorten{
-	margin: 0 auto;
-	display: block;
-	width: 50%;
-}
-
-.image-section{
-	#padding: 0;
-	height: 600px;
-	background-image: url(../images/header.jpg);
-	#background-image: url(../images/expt8.svg);
-	background-size: cover;
-	background-position: 0 -150px;
-}
-
-.image-section h2{
-	vertical-align: text-bottom;
-}
-
-.media-section{
-	margin-top: -600px;
-	background-color: rgba(0, 0, 0, 0.9);
-	padding: 20px;
-}
-
-.media-section img{
-	max-height: 100px;
-	margin: 0 auto;
-}
-
-.callout-left{
-	padding: 20px;
-	margin: 20px 0;
-	border: 1px solid #eee;
-	border-left: 5px solid #5bc0de;
-	border-radius: 3px;
-	background-color: rgba(223, 223, 223, 0.25)
-}
-
-.callout-right{
-	padding: 20px;
-	margin: 20px 0;
-	border: 1px solid #eee;
-	border-right: 5px solid #71D671;
-	border-radius: 3px;
-	background-color: rgba(223, 223, 223, 0.25)
-}
-
-.vertical-center{
-	display: table-cell;
-	vertical-align: middle;
-}
-
-
-.wikipedia-section{
-	background-color: #daf0f3;
-	#background-image: url(../images/subtle_dots.png);
-}
-
-.wikipedia-section img{
-	opacity: 0.7;
-}
-
-.wikipedia-section .subtext{
-	visibility: hidden;
-}
-
-.wikipedia-section a:hover .subtext{
-	visibility: visible;
-	text-decoration: underline;
-}
-
-.wikipedia-section a:hover .big{
-	color: #000;
-}
-
-.wikipedia-section a:hover img{
-	opacity: 1;
-}
-
-.wikipedia-section a:hover{
-	background-color:yellow;
-}
-
-.wikipedia-section .big{
-	font-size: 1.8em;
-	color: #5f5f5f;
-}
-
-.dummy-section{
-	#height: 400px;
-	#padding-top: 30px;
-	padding-bottom: 0;
-	background-image: url(../images/grey.png);
-	#background-color: #ddd;
-}
-
-.spacing-section{
-	height: 300px;
-}
-
-
-
-.underline{
-	text-decoration: underline;
-}
 
 /*====================================================*/
 
@@ -345,6 +236,13 @@ footer ul li .fa.fa-twitter:hover{
 	text-decoration: none;
 	color: #00aced;
 }
+
+footer ul li .fa.fa-instagram:hover{
+	
+	text-decoration: none;
+	color: rgba(131, 180, 233, 1);
+}
+
 
 footer ul li .fa.fa-facebook:hover{
 
