@@ -85,9 +85,22 @@ body{
 	font-weight: bold;
 }
 
+.carousel-indicators{
+	visibility: hidden;
+}
+
+.what-you-get h3{
+	text-transform: uppercase;
+	margin: 40px 0 30px;
+}
+
 section > h2{
 	text-transform: uppercase;
 	margin: 50px 0 40px;
+}
+
+.no-padding-left{
+	padding-left: 0;
 }
 
 .about-juicecrawl{
@@ -96,10 +109,65 @@ section > h2{
 	background-image: url(../images/restaurant_icons.png);
 }
 
-.about-juicecrawl p{
+.about-juicecrawl > p{
 	width: 50%;
 
 }
+
+.about-juicecrawl img{
+	#opacity: 0.2;
+}
+
+.about-juicecrawl .partner-icons{
+	#padding: 40px;
+}
+
+.about-juicecrawl .partner-icons img{
+	height: 120px;
+	margin: 15px auto;
+}
+
+.about-juicecrawl .partner-icons p{
+	min-height: 15%;
+}
+
+.about-juicecrawl .other-icons img{
+	width: 20%;
+	height: 100px;
+}
+
+.about-juicecrawl .other-icons p{
+	height: 50px;
+}
+
+.about-juicecrawl .well{
+	width: 20%;
+}
+
+.about-juicecrawl .value-box{
+	width: 20%;
+	margin: 0 auto;
+}
+
+.about-juicecrawl .value-box .list-group-item{
+	border-radius: 0;
+}
+
+.video{
+	margin: 20px 0;
+}
+
+.icons{
+	width: 85%;
+	background-color: #fff;
+}
+
+.total-value{
+	text-decoration: underline;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #777;
+}
+
 .linear li{
 	display: inline;
 	margin: 0 0.6em;
@@ -133,6 +201,10 @@ section > h2{
 .form-control, .input-group-lg>.form-control, .input-group-lg>.input-group-btn>.btn{
 	border-radius: 0;
 	box-shadow: none;
+}
+
+.media-section{
+	border-top: 3px solid green;
 }
 
 footer{
