@@ -1,5 +1,6 @@
 body{
 	#padding-top: 50px;
+	font-size: 1.7em;
 }
 
 .section-0{
@@ -128,7 +129,7 @@ section > h2{
 }
 
 .about-juicecrawl .partner-icons p{
-	min-height: 15%;
+	min-height: 120px;
 }
 
 .about-juicecrawl .other-icons img{
@@ -137,7 +138,7 @@ section > h2{
 }
 
 .about-juicecrawl .other-icons p{
-	height: 50px;
+	min-height: 70px;
 }
 
 .about-juicecrawl .well{
