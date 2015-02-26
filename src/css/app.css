@@ -1,6 +1,7 @@
 body{
 	#padding-top: 50px;
 	font-size: 1.7em;
+	font-family: 'Open Sans', san-serif;
 }
 
 .section-0{
@@ -21,7 +22,7 @@ body{
 	border-radius: 0px;
 	padding: 5px;
 	#background-image: url(../images/footer_lodyas.png);
-	background-image: url(../images/zwartevilt.png);
+	background-image: url(../images/escheresque_ste.png);
 	#background-color: #fff;
 	#margin-left: 5px;
 }
@@ -93,11 +94,13 @@ body{
 .what-you-get h3{
 	text-transform: uppercase;
 	margin: 40px 0 30px;
+	font-family: 'Raleway', san-serif;
 }
 
 section > h2{
 	text-transform: uppercase;
 	margin: 50px 0 40px;
+	font-family: 'Raleway', san-serif;
 }
 
 .no-padding-left{
@@ -161,12 +164,15 @@ section > h2{
 .icons{
 	width: 85%;
 	background-color: #fff;
+	margin-bottom: 20px;
 }
 
 .total-value{
 	text-decoration: underline;
 	padding-bottom: 2px;
 	border-bottom: 1px solid #777;
+	font-weight: bolder;
+	font-size: 1.5em;
 }
 
 .linear li{
@@ -226,6 +232,10 @@ footer p{
 
 footer a{
 	color: #444;
+}
+
+footer ul li .fa{
+	font-size: 0.8em;
 }
 
 footer ul li .fa.fa-twitter:hover{
