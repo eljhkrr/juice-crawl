@@ -273,3 +273,16 @@ footer ul li .fa.fa-youtube:hover{
 	margin-top: 200px;
 }
 
+
+/************ Responsive utils ************/
+
+@media screen and (max-width: 300px){
+
+.section-0{
+	height: 500px;
+}
+
+}
+
+
+
