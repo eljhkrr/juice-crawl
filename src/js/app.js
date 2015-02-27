@@ -27,8 +27,8 @@ app.controller("AppController", ['$scope', '$modal', '$log', function($scope, $m
 	};
 
 	
-	$scope.openAbout = function(){
-		$scope.open('lg', 'about.html');
+	$scope.openSub = function(){
+		$scope.open('', 'myModalContent.html');
 	};
 
 	$scope.toggleDropdown = function($event) {

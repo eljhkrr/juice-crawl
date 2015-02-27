@@ -25,8 +25,25 @@
     -->
 
   </head>
-  <body ng-controller="AppController">
+  <body ng-controller="AppController" ng-init="openSub()">
+
+
     <div class="container-fluid">
+
+        <script type="text/ng-template" id="myModalContent.html">
+            
+            <div class="modal-body">
+                <button type="button" class="close pull-right" ng-click="cancel()" aria-hidden="true">&times;</button>
+                <h4 class="text-center">Get all the juicy details!</h4>
+                <div class="input-group input-group-lg">
+                  <input type="email" id="email mce-EMAIL" name="EMAIL" class="form-control" placeholder="email address" required>
+                  <span class="input-group-btn">
+                    <button id="mc-embedded-subscribe" class="btn btn-success" type="submit">Subscribe</button>
+                  </span>
+                </div><!-- /input-group -->
+            </div>
+            
+        </script>
 
         <section class="row section-0">
             <div class="col-md-4 text-center">
