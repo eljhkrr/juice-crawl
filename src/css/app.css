@@ -274,6 +274,12 @@ footer ul li .fa.fa-youtube:hover{
 	margin-top: 200px;
 }
 
+.whos-involved {
+	padding: 20px;
+	border: 4px solid green;
+	background-image: url(../images/footer_lodyas.png);
+}
+
 
 /************ Responsive utils ************/
 
