@@ -272,7 +272,7 @@ footer ul li .fa.fa-youtube:hover{
 }
 
 .modal-dialog{
-	margin-top: 50px;
+	margin-top: 150px;
 }
 
 .whos-involved {
@@ -282,6 +282,9 @@ footer ul li .fa.fa-youtube:hover{
 	background-image: url(../images/footer_lodyas.png);
 }
 
+.modal-backdrop.in{
+	opacity: .95;
+}
 
 /************ Responsive utils ************/
 
