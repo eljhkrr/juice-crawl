@@ -160,7 +160,22 @@ section > h2{
 }
 
 .video{
-	margin: 20px 0;
+	margin: 40px 0;
+	/* new */
+	position:relative;
+	padding-bottom:56.25%; /* 16:9 aspect ratio */
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+	#width: 50%;
+}
+
+.video > iframe, .video > object, .video > embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width: 100%;
+	height: 100%;
 }
 
 .icons{
@@ -290,10 +305,18 @@ footer ul li .fa.fa-youtube:hover{
 
 @media screen and (max-width: 300px){
 
-.section-0{
-	height: 500px;
+	.section-0{
+		height: 500px;
+	}
+
 }
 
+@media screen and (max-width: 1000px){
+
+	.vertical-center{
+		top: -40px;
+		position: relative;
+	}
 }
 
 
