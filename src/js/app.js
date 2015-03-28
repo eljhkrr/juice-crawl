@@ -5,6 +5,8 @@ app.controller("AppController", ['$scope', '$modal', '$log', function($scope, $m
 	$scope.status = {
 		isopen: false
 	};
+
+	$scope.showPartners = false;
 	
 	$scope.open = function (size, templateFile) {
 

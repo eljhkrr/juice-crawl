@@ -164,7 +164,8 @@
                 <iframe width="560" height="315" src="//www.youtube.com/embed/SGOc9P4Ynm8" frameborder="0" allowfullscreen=""></iframe>
             </div>
 
-            <div class="row whos-involved text-center text-muted center-block" style="">
+            <!-- Desktops & large screens -->
+            <div class="row whos-involved text-center text-muted center-block visible-md visible-lg" style="">
                 <h2 class="white">Our Partners</h2>
                 <div class="col-md-2">
                     <img width="150px" class="img-responsive center-block" src="images/luli.jpg">
@@ -195,6 +196,51 @@
                     <br class="visible-xs">
                 </div>
             </div>
+
+            <!-- Mobile & Tablets -->
+            
+            <div  class="row whos-involved text-center text-muted center-block visible-xs visible-sm">
+                <div collapse="showPartners">
+                    <button type="button"  class="btn btn-success center-block" ng-click="showPartners = !showPartners">Tap to view our partners</button>
+                </div>
+                <div collapse="!showPartners">
+                    <button type="button" class="btn btn-default center-block" ng-click="showPartners = !showPartners">Tap to hide Partners</button>
+                </div>
+                <h2 collapse="!showPartners" class="white">Our Partners</h2>
+
+                <div collapse="!showPartners" class="col-md-2">
+                    <img width="150px" class="img-responsive center-block" src="images/luli.jpg">
+                    <br class="visible-xs">
+                </div>
+
+                <div collapse="!showPartners" class="col-md-2">
+                <br>
+                    <img width="150px" class="img-responsive center-block" src="images/liquiteria.png">
+                    <br class="visible-xs">
+                </div>
+                <div collapse="!showPartners" class="col-md-2">
+                    <br>
+                    <img class="img-responsive center-block" src="images/jplogo.png">
+                    <br class="visible-xs">
+                </div>
+                <div collapse="!showPartners" class="col-md-2">
+                    <img width="150px" class="img-responsive center-block" src="images/terri.png">
+                    <br class="visible-xs">
+                </div>
+                <div collapse="!showPartners" class="col-md-2">
+                    <img width="150px" class="img-responsive center-block" src="images/hse_of_juice_logo.jpg">
+                    <br class="visible-xs">
+                </div>
+                <div collapse="!showPartners" class="col-md-2">
+                    <br>
+                    <img width="150px" class="img-responsive center-block" src="images/reebok_logo.png">
+                    <br class="visible-xs">
+                </div>
+                <div collapse="!showPartners">
+                    <button type="button" class="btn btn-default center-block" ng-click="showPartners = !showPartners">Tap to hide Partners</button>
+                </div>
+            </div>
+            <!-- End mobile & tablets -->
 
             <div class="what-you-get center-block">
                 <h3>What you get<br><small>for one ticket</small></h3>
@@ -427,14 +473,22 @@
     </div>
       
   </body>
+    <!--Google Analytics! -->
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+          i['GoogleAnalyticsObject'] = r;
+          i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+          }, i[r].l = 1 * new Date();
+          a = s.createElement(o),
+          m = s.getElementsByTagName(o)[0];
+          a.async = 1;
+          a.src = g;
+          m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-60200567-1', 'auto');
-      ga('send', 'pageview');
-
+        ga('create', 'UA-54280787-1', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
     </script>
 </html>
